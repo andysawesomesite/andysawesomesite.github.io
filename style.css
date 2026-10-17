@@ -278,31 +278,6 @@ together since theyre kinda related :p
 then ai on the third page since its the
 supposedly more interesting topic */
 
-
-.binarybonanza
-{
-  position: fixed; 
-  bottom: 20px;     
-  right: 20px;    
-}
-
-.binair a:hover {
-  box-shadow: inset 0 50px 0 0 #000; 
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-
-}
-
-@media only screen and (max-width: 500px) {
-  body {
-    transform: scale(0.27);
-    transform-origin: top left;
-    width: 500%;  
-    margin: 0;
-    padding: 0;
-  }
-}
-
   .desktop
   {
     position: absolute;
