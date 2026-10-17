@@ -366,6 +366,7 @@ height: 265px;
 }
 
 /* page scroll, turns out its easier to jsut make more bodies and play around with it :D */
+/* page scroll, turns out its easier to jsut make more bodies and play around with it :D */
 html,
 body {
     height: auto;
@@ -403,12 +404,15 @@ body {
 body {
     min-height: 150vh; 
     padding-bottom: 20px;
-    body :-webkit-scrollbar {
-    display: none;
-}
 }
 
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
   mark {
-        background-color:#8661c5;
-        color:black;
+    background-color:#8661c5;
+    color:black;
     }
