@@ -390,3 +390,45 @@ width: 300px;
 height: 265px;
 }
 
+/* page scroll, turns out its easier to jsut make more bodies and play around with it :D */
+html,
+body {
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* binary bonanza */
+.binarybonanza {
+    position: relative;
+    clear: both;
+    width: 100%;
+    max-width: 740px;
+    box-sizing: border-box;
+    top: 220px; 
+
+     margin: 70px auto 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* centering the gameeee! i hated it */
+.binarybonanza iframe {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+
+    margin: 20px auto;
+    border: none;
+}
+
+/* room to scroll */
+body {
+    min-height: 150vh; 
+    padding-bottom: 20px;
+    body :-webkit-scrollbar {
+    display: none;
+}
+}
