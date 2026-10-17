@@ -406,6 +406,7 @@ body {
     padding-bottom: 20px;
 }
 
+/*here is the code for no scrollbar on the page, i wanted to keep the scrollbar for text containers but not for the page itself */
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
     display: none;
