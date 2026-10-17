@@ -432,3 +432,8 @@ body {
     display: none;
 }
 }
+
+  mark {
+        background-color:#8661c5;
+        color:black;
+    }
