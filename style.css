@@ -429,7 +429,7 @@ height: 445px;
 
 /* binary bonanza */
 .binarybonanza {
-    position: center;
+    position: relative;
     clear: both;
     width: 100%;
     max-width: 740px;
