@@ -484,46 +484,4 @@ body::-webkit-scrollbar {
     }
 
 
-    /* Navigation menu */
-.sidebar {
-  width: 220px;
-  padding: 20px 12px;
-  background: #e5dbff;
-  border: 2px solid #a855f7;
-  color: #d8b4fe;
-  font-family: monospace;
-  box-shadow: 0 0 10px #7926c955;
-}
-
-.sidebar h2 {
-  text-align: center;
-  line-height: 1.5;
-  font-size: 19px;
-}
-
-.hello, .footr {
-  text-align: center;
-  color: #a855f7;
-  margin: 20px 0;
-}
-
-.sidebar a {
-  display: block;
-  padding: 13px 8px;
-  margin: 5px 0;
-  color: #d8b4fe;
-  text-decoration: none;
-  font-size: 13px;
-}
-
-.sidebar a:hover,
-.sidebar a.active {
-  background: #6025a8;
-  color: white;
-}
-
-.footr {
-  font-size: 10px;
-  margin-bottom: 0;
-}
-</style>
+    
