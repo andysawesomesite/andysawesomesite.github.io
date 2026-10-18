@@ -408,7 +408,7 @@ body {
     width: 100%;
     max-width: 740px;
     box-sizing: border-box;
-    top: 600px; 
+    top: 750px; 
 
      margin: 70px auto 40px;
     padding: 20px;
@@ -441,5 +441,10 @@ body::-webkit-scrollbar {
 
   mark {
     background-color:#8661c5;
+    color:black;
+    }
+
+  marktwo {
+    background-color:#947bbe;   /* for incase i wanna highlight something else */
     color:black;
     }
