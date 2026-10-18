@@ -487,3 +487,172 @@ body::-webkit-scrollbar {
     background-color:#947bbe;   /* for incase i wanna highlight something else, if it doesnt work, its fine.  it worked on phoenix code though. */
     color:black;
     }
+
+
+
+
+
+    
+/* ===== RESPONSIVE FIX FOR CHROMEBOOKS ===== */
+
+/* Make sizing more predictable */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 0;
+    overflow-x: hidden;
+}
+
+/* Keep the existing desktop appearance */
+.desktop {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Let the draggable windows stay within the screen */
+.out {
+    max-width: calc(100vw - 20px);
+}
+
+/* Keep the game below the windows */
+.binarybonanza {
+    position: relative;
+    top: auto;
+    clear: both;
+    width: min(740px, calc(100% - 24px));
+    margin: 80px auto 40px;
+    padding: 12px;
+}
+
+.binarybonanza iframe {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    border: none;
+}
+
+/* Chromebook and smaller laptop screens */
+@media screen and (max-width: 900px) {
+
+    .desktop {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        transform: none;
+    }
+
+    /* Stack the three information windows */
+    .out.small,
+    .out.small.two,
+    .out.small.three {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 24px auto;
+        width: min(420px, calc(100% - 24px));
+        height: auto;
+    }
+
+    .header,
+    .header.two,
+    .header.three {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .iner.small,
+    .iner.small.two,
+    .iner.small.three {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* allow text to scroll inside its own window */
+    .iner.small {
+        height: 265px;
+        overflow-y: auto;
+    }
+
+    .iner.small.two {
+        height: 345px;
+        overflow-y: auto;
+    }
+
+    .iner.small.three {
+        height: 445px;
+        overflow-y: auto;
+    }
+
+    /* Keep the main panel from stretching off-screen */
+    .out.main {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: calc(100% - 24px);
+        max-width: 420px;
+        height: auto;
+        margin: 24px auto;
+    }
+
+    .left {
+        flex-shrink: 0;
+        max-width: 35%;
+    }
+
+    .right {
+        min-width: 0;
+        max-width: 65%;
+        overflow: auto;
+    }
+
+    /* Put the game after the information windows */
+    .binarybonanza {
+        margin: 40px auto;
+        clear: both;
+    }
+}
+
+/* Phones and very narrow Chromebook windows */
+@media screen and (max-width: 480px) {
+
+    .out.main {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid #808080;
+        border-radius: 10px;
+    }
+
+    .left {
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .right {
+        min-height: 180px;
+    }
+
+    .binarybonanza iframe {
+        height: 400px;
+    }
+}
