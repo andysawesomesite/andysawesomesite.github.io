@@ -319,7 +319,7 @@ supposedly more interesting topic */
    linear-gradient(0deg,rgba(255,255,255,1)0%, rgba(255,255,255,1)92%, rgba(225,225,225,1)0%);
  }
 
-
+/* the beautofl color one */
  .header
 {
     border-top: 1px solid #808080;
@@ -333,6 +333,8 @@ supposedly more interesting topic */
     display: flex;
 }
 
+
+    
 .iner
 {
     border-bottom: 1px solid #808080;
@@ -347,11 +349,11 @@ supposedly more interesting topic */
 {
   height: 300px;
   width: 321px;
-top: 5em;
+top: 2em;
 left: 35px;
 }
 
-
+    
 .iner.small 
 {
 overflow-y: scroll;
@@ -359,25 +361,26 @@ overflow-x: hidden;
 width: 300px;
 height: 265px;
 }
-
-
-   .header.two
+    
+    /* input processing output container */
+    
+    .header.two
 {
- border-top: 1px solid #808080;
- border-left: 1px solid #808080;
- border-right: 1px solid #808080;
- border-radius: 10px 10px 0px 0px;
- height: 10px;
- width: 310px;
- padding: 10px;
- background: #e1e1e1;
- display: flex;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-radius: 10px 10px 0px 0px;
+    height: 10px;
+    width: 310px;
+    padding: 10px;
+    background: #e1e1e1;
+    display: flex;
 }
     
     
-    .out.small.two 
+    .out.small.two
 {
-top: -25em;
+top: -32em;
 left:77em;
 }
 
@@ -387,8 +390,45 @@ left:77em;
 overflow-y: scroll;
 overflow-x: hidden;
 width: 310px;
-height: 355px;
+height: 345px;
 }    
+  
+
+    /* binary text container :p */
+
+
+    .header.three
+{
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-radius: 10px 10px 0px 0px;
+    height: 10px;
+    width: 390px;
+    padding: 10px;
+    background: #e1e1e1;
+    display: flex;
+}
+    
+    
+    .out.small.three 
+{
+top: -40em;
+left: 37em;
+}
+
+    
+.iner.small.three
+{
+overflow-y: scroll;
+overflow-x: hidden;
+width: 390px;
+height: 445px;
+}    
+    
+
+
+
 
 
 /* page scroll, turns out its easier to jsut make more bodies and play around with it :D */
@@ -402,12 +442,12 @@ body {
 
 /* binary bonanza */
 .binarybonanza {
-    position: relative;
+    position: center;
     clear: both;
     width: 100%;
     max-width: 740px;
     box-sizing: border-box;
-    top: 750px; 
+    top: 700px; 
 
      margin: 70px auto 40px;
     padding: 20px;
@@ -427,7 +467,7 @@ body {
 
 /* room to scroll */
 body {
-    min-height: 150vh; 
+    min-height: 200vh; 
     padding-bottom: 20px;
 }
 
