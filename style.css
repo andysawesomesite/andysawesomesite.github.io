@@ -351,11 +351,6 @@ top: 5em;
 left: 35px;
 }
 
-.out.small.two 
-{
-top: -25em;
-left:57em;
-}
 
 .iner.small 
 {
@@ -364,6 +359,37 @@ overflow-x: hidden;
 width: 300px;
 height: 265px;
 }
+
+
+   .header.two
+{
+ border-top: 1px solid #808080;
+ border-left: 1px solid #808080;
+ border-right: 1px solid #808080;
+ border-radius: 10px 10px 0px 0px;
+ height: 10px;
+ width: 310px;
+ padding: 10px;
+ background: #e1e1e1;
+ display: flex;
+}
+    
+    
+    .out.small.two 
+{
+top: -25em;
+left:57em;
+}
+
+    
+.iner.small.two
+{
+overflow-y: scroll;
+overflow-x: hidden;
+width: 310px;
+height: 345px;
+}    
+
 
 /* page scroll, turns out its easier to jsut make more bodies and play around with it :D */
 /* page scroll, turns out its easier to jsut make more bodies and play around with it :D */
