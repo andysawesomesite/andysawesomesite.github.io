@@ -427,7 +427,7 @@ body {
 
 /* room to scroll */
 body {
-    min-height: 150%; 
+    min-height: 150vh; 
     padding-bottom: 20px;
 }
 
