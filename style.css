@@ -378,7 +378,7 @@ height: 265px;
     .out.small.two 
 {
 top: -25em;
-left:57em;
+left:67em;
 }
 
     
@@ -387,7 +387,7 @@ left:57em;
 overflow-y: scroll;
 overflow-x: hidden;
 width: 310px;
-height: 345px;
+height: 355px;
 }    
 
 
@@ -445,6 +445,6 @@ body::-webkit-scrollbar {
     }
 
   marktwo {
-    background-color:#947bbe;   /* for incase i wanna highlight something else */
+    background-color:#947bbe;   /* for incase i wanna highlight something else, if it doesnt work, its fine.  it worked on phoenix code though. */
     color:black;
     }
