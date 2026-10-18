@@ -319,7 +319,7 @@ supposedly more interesting topic */
    linear-gradient(0deg,rgba(255,255,255,1)0%, rgba(255,255,255,1)92%, rgba(225,225,225,1)0%);
  }
 
-/* the beautofl color one */
+/* the beautof */
  .header
 {
     border-top: 1px solid #808080;
@@ -442,12 +442,12 @@ body {
 
 /* binary bonanza */
 .binarybonanza {
-    position: relative;
+    position: center;
     clear: both;
     width: 100%;
     max-width: 740px;
     box-sizing: border-box;
-    top: 900px; 
+    top: 700px; 
 
      margin: 70px auto 40px;
     padding: 20px;
