@@ -442,7 +442,7 @@ body {
 
 /* binary bonanza */
 .binarybonanza {
-    position: center;
+    position: center, relative;
     clear: both;
     width: 100%;
     max-width: 740px;
