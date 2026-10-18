@@ -497,25 +497,27 @@ body {
     max-width: calc(100vw - 20px);
 }
 
-/* Keep the game below the windows */
-
+/* binary bonanza */
 .binarybonanza {
-    position: relative;
-    top: auto;
-    left: auto;
+    position: center;
     clear: both;
+    width: 100%;
+    max-width: 740px;
+    box-sizing: border-box;
+    top: 700px; 
 
-    display: block;
-    width: min(740px, calc(100% - 24px));
-    margin: 80px auto 40px;
-    padding: 12px;
+     margin: 70px auto 40px;
+    padding: 20px;
+    text-align: center;
 }
 
+/* centering the gameeee! i hated it */
 .binarybonanza iframe {
     display: block;
     width: 100%;
     max-width: 700px;
     height: 500px;
+
     margin: 20px auto;
     border: none;
 }
