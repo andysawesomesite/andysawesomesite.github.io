@@ -539,6 +539,36 @@ body::-webkit-scrollbar {
     */
 
 
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+ 
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+
 
         .ai-container {
       max-width: 700px;
@@ -546,12 +576,13 @@ body::-webkit-scrollbar {
       margin: 0 auto;
       padding: 25px;
       box-sizing: border-box;
-      background: #151018;
-      border: 2px solid #6b5937;
+      border-radius: 15px;
+      background: #8f6f4f;
+      border: 2px solid #3b2b0d;
       border-radius: 10px;
       line-height: 1.7;
     }
 
     .ai-container h1 {
-      color: #6b5937;
+      color: #000000;
     }
