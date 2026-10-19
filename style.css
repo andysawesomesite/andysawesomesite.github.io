@@ -433,13 +433,13 @@ height: 445px;
     left: 35em;
     width: 350px;
     height: 150px;
-    background-color: #000000;
+    background-color: rgb(17, 13, 34);
     z-index: 9999;
     display: block;
   }
 
 .navig h2 {
-  color: #642fa0;
+  color: #743db3;
   text-align: center;
   font-size: 18px;
   margin: 5px 0 15px;
@@ -451,8 +451,8 @@ height: 445px;
 display: block;
   box-sizing: border-box;
   background: #000;
-  color: #642fa0;
-  border: 1px solid #642fa0;
+  color: #743db3;
+  border: 1px solid #743db3;
   border-radius: 6px;
   padding: 10px;
   margin: 8px 0;
@@ -461,7 +461,7 @@ display: block;
 }
   
  .navig a:hover {
-    background-color: #642fa0;
+    background-color: #743db3;
     color: #000000;
   }
 
