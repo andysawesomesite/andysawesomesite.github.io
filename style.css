@@ -432,8 +432,10 @@ height: 445px;
     top: 5em;
     left: 35em;
     width: 350px;
-    height: 150px;
-    background-color: rgb(17, 13, 34);
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+      border: 1px solid #743db3;
+  border-radius: 6px;
     z-index: 9999;
     display: block;
   }
