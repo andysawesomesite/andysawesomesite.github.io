@@ -435,7 +435,7 @@ height: 445px;
     height: 250px;
     background-color: #000000;
     z-index: 9;
-    display: none; /* initially hidden */
+    display: block; /* initially hidden */
   }
 
 .navig h2 {
