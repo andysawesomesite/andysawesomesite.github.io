@@ -430,9 +430,9 @@ height: 445px;
 {
     position: absolute;
     top: 5em;
-    left: 30em;
+    left: 35em;
     width: 350px;
-    height: 250px;
+    height: 150px;
     background-color: #000000;
     z-index: 9999;
     display: block;
