@@ -379,8 +379,8 @@ height: 265px;
     
     .out.small.two
 {
-top: -32em;
-left:77em;
+top: -35em;
+left: 67em;
 }
 
     
@@ -412,8 +412,8 @@ height: 345px;
     
     .out.small.three 
 {
-top: -50em;
-left: 20em;
+top: -40em;
+left: 40em;
 }
 
     
@@ -426,7 +426,33 @@ height: 445px;
 }    
     
 
+.navig 
+{
+    position: absolute;    /* absolute acts independently!!! so it wont disturb the other things :p */
+    top: 10em;
+    left: 60em;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 9;
+    display: none; /* initially hidden */
+  }
 
+  navig a {
+    display: block;
+    margin: 10px 0;
+    color: #000000;
+   border-radius: 6px;
+  padding: 10px;
+  margin: 8px 0;
+  text-align: left;
+  text-decoration: none;
+}
+  
+ navig a:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
 
 
 
