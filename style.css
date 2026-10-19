@@ -523,4 +523,35 @@ body::-webkit-scrollbar {
     }
 
 
-    
+    /*
+    LAST PAGE FINALLYYYY ^_^
+    ABOTU AI
+    ABOUT AI
+    ABOUT AI
+    ABOUT AI
+    ABOUT AI
+    very simple page since i only have 
+    one bit of information and thers 
+    no point in making it complicated 
+    since its not like a focus on my
+     interests like the homepage :p
+    YIPPI IM ALMSOT DONEEEE
+    */
+
+
+
+        .ai-container {
+      max-width: 700px;
+      min-height: 350px;
+      margin: 0 auto;
+      padding: 25px;
+      box-sizing: border-box;
+      background: #151018;
+      border: 2px solid #6b5937;
+      border-radius: 10px;
+      line-height: 1.7;
+    }
+
+    .ai-container h1 {
+      color: #6b5937;
+    }
