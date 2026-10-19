@@ -11,14 +11,14 @@
 
 <body>
   
-  <style>
+   <style>
  @font-face {
 font-family: PC98;
 src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
 }
-
-
-    body
+    
+      
+          body
 	{
      	font-family: PC98; 
 	/* background picture, picture was taken off some wallpaper website. */
@@ -30,21 +30,165 @@ src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
 		background-size: cover; 
 
 	}
+      
+  html {
+    height: 100%;
+    width: 100%;
+    font-family: 98PC;
+  }
+ 
+
+ 
+  .back {
+    width:742px;
+      height: 526px;
+      margin: auto;
+    margin-top: 100px;
+    position: center;
+  }
+ 
+ 
+  .bar {
+    border:2px solid;
+    outline:2px solid black ;
+    background-color: #d19b3d;
+    text-align:center;
+    padding-top:9px;
+    padding-bottom:9px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+  }
+ 
+
+
+ 
+  .row {
+    display:flex;
+    height:300px;
+  }
+ 
+  .navigation {
+
+    border:2px solid black ;
+    outline:2px solid black;
+    background-color: #d19b3d;
+    text-align:center;
+    box-sizing: border-box;
+    width:25%;
+    height:550px;
+      border-bottom-left-radius: 10px;
+  }
+ 
+  .titlebar {
+    border-bottom:2px solid ;
+    padding:4px;
+  }
+ 
+  .buttonholder {
+    padding-left:10px;
+    padding-right:10px;
+    overflow-y:auto;
+    height:263px;
+  }
+ 
+  .navbutton {
+    margin:5px;
+    padding:5px;
+    border:2px solid black;
+    background-color: #d19b3d ;
+  }
+ 
+
+
+ 
+  .box {
+    border:2px solid ;
+    outline:2px solid black;
+    background-color: #d19b3d;
+    box-sizing: border-box;
+    padding:10px;
+    width:558px;
+    height:100%;
+    overflow-y:auto;
+  }
+ 
+ 
+  .foter {
+    border:2px solid;
+    outline:2px solid black;
+    background-color: #d19b3d;
+    margin-left: 184px;
+    padding:8px;
+    width:538px;
+    height: 230px;
+    text-align: left ;
+    border-bottom-right-radius: 10px;
+    
+  }
+      
+  strong {
+    color: #000000;
+  }
+ 
+        h3 {
+    margin:0px;
+  }
+      
+ 
+  p {
+    margin:0px;
+  }
+      
+      
+  h4 {
+    margin:0px;
+  }
+  
+      
+    
 </style>
+ 
+ 
+ 
+  <div class="back">
+    <div class="header">
+        
+    </div>
+    <div class="bar">
+      <h3>Hier heb ik het over ai!</h3>
+    </div>
+    <div class="row">
+      <div class="navigation">
+        <div class="titlebar">
+          <h3>NAVIGATION</h3>
+        </div>
+        <div class="buttonholder">
+          <!--you can add however many links you like. you can remove any links youre not using, too.-->
+          <div class="navbutton">
+            <h4><a href="link" style="color: black;">home</a></h4>
+          </div>
+          <div class="navbutton">
+            <h4><a href="link" style="color: black;">computer language</a></h4>
+          </div>
+          <div class="navbutton">
+            <h4><a href="link" style="color:var(--bordercolor);">here</a></h4>
+          </div>
 
-<div class="ai-container" >
-
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">computer language</a></li>
-  <li><a href="#contact">over ai</a></li>
-</ul>
-
-<h2> AI</h2>
-
-<p>   .</p>
+    </div>
+    </div>
+   
+    <div class="box">
+          helheleoooe
+         
+    
+    </div>
+    </div>
+      
+      
+<div class="foter">
+here you have more information!
 </div>
-
-
-  </body>
+  </div>
+</body>
+ 
 </html>
