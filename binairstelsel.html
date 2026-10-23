@@ -211,9 +211,9 @@ align-items: flex-start;
 <div class="left">
 <button class="red"></button><button class="yellow"></button></button><button class="green"></button>
 <br><br>
-<a onclick="loadPage('page1')"><img src="https://forum.affinity.serif.com/uploads/monthly_01_2015/post-3367-0-15232800-1421504836.png" style="width: 70px"></a> <!-- change the ryb it is not computer science related-->
+<a onclick="loadPage('page2')"><img src="https://heuehrainf.carrd.co/assets/images/image02.jpg?v=6a0dc633" style="width: 90px;"></a> <!-- change the ryb it is not computer science related-->
 <br><br>
-<a onclick="loadPage('page2')"><img src="https://heuehrainf.carrd.co/assets/images/image02.jpg?v=6a0dc633" style="width: 90px;"></a>
+<a onclick="loadPage('page1')"><img src="https://forum.affinity.serif.com/uploads/monthly_01_2015/post-3367-0-15232800-1421504836.png" style="width: 70px"></a>
 <br><br>
 <a onclick="loadPage('page3')"><img src="https://heuehrainf.carrd.co/assets/images/image03.jpg?v=6a0dc633" style="width: 90px;"></a>
 </div>
@@ -227,7 +227,10 @@ align-items: flex-start;
 <div class="title">kleurmodellen</div>
 </div>
 <div class="iner small">
-Hexcode: Een zescijferige alfanumerieke code die in webdesign en digitale media wordt gebruikt om een ​​specifieke kleur weer te geven.
+Hexcode: Een zescijferige alfanumerieke code die in webdesign en digitale media wordt gebruikt om een ​​specifieke kleur weer te geven. 
+<br><br>  
+Hexadecimale codes beginnen altijd met een # en vervolgens 6 cijfers die gevormd worden door de letters 1 t/m 9 en de letters A t/m F.
+
 <br><br><br>
 RGB: Rood, groen en blauw. <br>
 Deze kleuren worden gecombineerd door middel van licht. Als je meer licht toevoegt krijg je een heldere resultaat. 
@@ -244,6 +247,7 @@ CMYK is een substractief kleurmodel dat wordt gebruikt in de drukindustrie. Het 
 In tegenstelling tot RGB, dat licht gebruikt om kleuren te creëren, werkt CMYK door inkt op papier te gebruiken. 
 CMYK gaat ervan uit dat de basiskleur van het papier wit is, dus in tegenstelling tot RGB is CMYK (0,0,0,0) wit.
 Pas als je het getal verhoogt, wordt de kleur intenser.
+
 <br><br>
 Als je wilt weten waarom er verschillende kleurmodellen zijn en een visueel voorbeeld wilt zien van wat er gebeurt, 
 is hier een video die mij ook heeft geholpen het beter te begrijpen. <a href="https://www.youtube.com/watch?v=CJZADSZLN6U" target="_blank">Color models</a>
@@ -369,10 +373,10 @@ $( ".out" ).draggable();
   <script>
 
     const pages = {
-      page1: `<div class=" kleur modellen ">  </div>
+      page1: `<div class="RGB"></div>
+      <img src="https://heuehrainf.carrd.co/assets/images/image02.jpg?v=6a0dc633" style="width: 240px; margin-top:40px;">`,      
+      page2: `<div class=" kleur modellen ">  </div>
       <img src="https://forum.affinity.serif.com/uploads/monthly_01_2015/post-3367-0-15232800-1421504836.png" style="width: 240px; margin-top:30px;">`,
-      page2: `<div class="RGB"></div>
-      <img src="https://heuehrainf.carrd.co/assets/images/image02.jpg?v=6a0dc633" style="width: 240px; margin-top:40px;">`,
       page3: `<div class="CMYK"></div>
       <img src="https://heuehrainf.carrd.co/assets/images/image03.jpg?v=6a0dc633" style="width: 240px; margin-top:45px;">`,
     } ;
